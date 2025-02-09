@@ -1,0 +1,37 @@
+[[themes]]
+name = "gruvbox"
+[themes.palette]
+foreground = "#e0e0e0"
+black = "#1e1e1e"
+red = "#cc2f2f"
+green = "#98e098"
+yellow = "#efbd44"
+blue = "#4488aa"
+magenta = "#d487d4"
+cyan = "#68a3a3"
+white = "#e6d6d6"
+bright_black = "#666666"
+bright_red = "#fa4949"
+bright_green = "#aef1ae"
+bright_yellow = "#f9cb76"
+bright_blue = "#7fb2e3"
+bright_magenta = "#e9a7e9"
+bright_cyan = "#7ec6c6"
+bright_white = "#dfdfdf"
+
+[themes.component_style]
+block_title = { fg = "Magenta" }
+border = {}
+playback_status = { fg = "Yellow", modifiers = ["Bold"] }
+playback_track = { fg = "Yellow", modifiers = ["Bold"] }
+playback_artists = { fg = "Yellow", modifiers = ["Bold"] }
+playback_album = { fg = "Cyan" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+playlist_desc = { fg = "BrightBlack", modifiers = ["Dim"] }
+table_header = { fg = "Blue" }
+secondary_row = {}
+like = {}
+lyrics_played = { modifiers = ["Dim"] }
