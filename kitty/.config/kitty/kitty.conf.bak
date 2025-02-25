@@ -25,6 +25,6 @@ include current-theme.conf
 
 
 # BEGIN_KITTY_THEME
-# Gruvbox Material Dark Hard
+# Tokyo Night
 include current-theme.conf
 # END_KITTY_THEME
