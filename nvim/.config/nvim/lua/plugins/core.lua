@@ -1,17 +1,16 @@
 return {
   {
-    "luisiacc/gruvbox-baby",
+    'EdenEast/nightfox.nvim',
     opts = {
-      transparent_mode = true, -- Activa el modo transparente
+      options = {
+        transparent = true,
+      },
     },
-    config = function()
-      vim.g.gruvbox_baby_transparent_mode = 1 -- Alternativamente, puedes activarlo aquí
-    end,
   },
   {
-    "LazyVim/LazyVim",
+    'LazyVim/LazyVim',
     opts = {
-      colorscheme = "gruvbox-baby",
+      colorscheme = 'duskfox',
     },
   },
 }

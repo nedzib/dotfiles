@@ -2,7 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # personal configs
 ZSH_THEME="ned"
-plugins=(git rails bundler zsh-256color aliases colorize)
+plugins=(git rails bundler aliases colorize)
 
 # zsh conf
 source $ZSH/oh-my-zsh.sh
@@ -11,10 +11,6 @@ export EDITOR='nvim'
 # rbenv setup
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-# nodenv setup
-export PATH="$HOME/.nodenv/bin:$PATH"
-eval "$(nodenv init -)"
 
 # aliases
 alias lzd='lazydocker'

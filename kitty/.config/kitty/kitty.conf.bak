@@ -23,8 +23,3 @@ env TERM=xterm-256color
 # Gruvbox Material Dark Hard
 include current-theme.conf
 
-
-# BEGIN_KITTY_THEME
-# Tokyo Night
-include current-theme.conf
-# END_KITTY_THEME
