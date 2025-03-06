@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # personal configs
-ZSH_THEME="ned"
+ZSH_THEME="robbyrussell"
 plugins=(git rails bundler aliases colorize)
 
 # zsh conf
@@ -31,4 +31,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-eval "$(tmuxifier init -)"
