@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-
+source $HOME/.zshrc_env
 # personal configs
 ZSH_THEME="robbyrussell"
 plugins=(git rails bundler aliases colorize)
@@ -31,3 +31,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+
+# nodenv setup
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
