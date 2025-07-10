@@ -32,7 +32,15 @@ return {
             end
           end,
         },
-        lualine_b = {},
+        lualine_b = {
+          {
+            "branch",
+            icon = "",
+            fmt = function(name)
+              return (#name > 15) and (name:sub(1, 15) .. "…") or name
+            end,
+          },
+        },
         lualine_c = {
           LazyVim.lualine.root_dir(),
           {

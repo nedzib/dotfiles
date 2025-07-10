@@ -1,6 +1,5 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.ai.codeium",
     "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.coding.luasnip",
     "lazyvim.plugins.extras.coding.mini-surround",
@@ -17,7 +16,6 @@
     "lazyvim.plugins.extras.lang.tex",
     "lazyvim.plugins.extras.ui.alpha",
     "lazyvim.plugins.extras.ui.mini-indentscope",
-    "lazyvim.plugins.extras.ui.smear-cursor",
     "lazyvim.plugins.extras.ui.treesitter-context",
     "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.mini-hipatterns",

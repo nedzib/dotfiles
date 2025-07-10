@@ -1,0 +1,33 @@
+* {
+  background:   #282828ff;
+  foreground:   #ebdbb2ff;
+  border-color: #3c3836ff;
+  selected:     #458588ff;
+  active:       #689d6aff;
+  urgent:       #cc241dff;
+  font: "Hasklug Nerd Font 10";
+}
+
+window {
+  padding: 4px;
+  border: 2px;
+  border-color: @border-color;
+}
+
+listview {
+  columns: 1;
+  lines: 10;
+  spacing: 2px;
+  fixed-height: true;
+}
+
+element normal {
+  background: transparent;
+  text-color: @foreground;
+}
+
+element selected {
+  background: @selected;
+  text-color: @background;
+}
+

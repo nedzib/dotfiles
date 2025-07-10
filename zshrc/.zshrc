@@ -1,8 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
-source $HOME/.zshrc_env
+# source $HOME/.zshrc_env
 # personal configs
 ZSH_THEME="robbyrussell"
-plugins=(git rails bundler aliases colorize)
+plugins=(git rails bundler aliases colorize tmux)
 
 # zsh conf
 source $ZSH/oh-my-zsh.sh
@@ -35,3 +35,6 @@ export NVM_DIR="$HOME/.nvm"
 # nodenv setup
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
+
+        # okteto setup
+        export PATH="/usr/local/bin:$PATH"
