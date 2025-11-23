@@ -6,4 +6,3 @@ vim.keymap.set("n", "<leader>cc", function()
   vim.fn.setreg("+", relative_path)
   vim.notify("Ruta relativa copiada: " .. relative_path)
 end, { desc = "Copiar ruta relativa del archivo" })
-

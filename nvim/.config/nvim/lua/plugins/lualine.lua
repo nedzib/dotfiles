@@ -10,7 +10,6 @@ return {
     vim.o.laststatus = vim.g.lualine_laststatus
     local opts = {
       options = {
-        theme = "gruvbox-baby",
         section_separators = { right = "|", left = "|" },
         globalstatus = vim.o.laststatus == 3,
         disabled_filetypes = { statusline = { "dashboard", "alpha", "ministarter", "snacks_dashboard" } },
@@ -54,6 +53,12 @@ return {
           },
           { "filetype", icon_only = true, separator = "", padding = { left = 1, right = 0 } },
           { LazyVim.lualine.pretty_path() },
+          {
+            "filename",
+            symbols = { modified = " [+]", readonly = " ", unnamed = "[No Name]" },
+            path = 0,
+            file_status = true,
+          },
         },
         lualine_x = {
           Snacks.profiler.status(),
